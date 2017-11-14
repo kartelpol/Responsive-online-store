@@ -1,0 +1,384 @@
+@media only screen
+ and (max-width: 768px){
+
+ 	body{
+ 		/* padding-bottom: 50vw; */
+ 	}
+
+	.menu nav{
+		display: none;
+	}
+
+	.logo{
+		width: 16vw;
+	}
+
+	.cart-info{
+		width: 28vw;
+		font-size: 12px;
+	}	
+
+
+
+	.cart-select select{
+		font-size: 12px;
+		padding-right: 14vw;
+	}
+
+	.wrapper2{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.drop-down-menu{
+		position: relative;
+		display: block;
+		background-color: rgb(253,146,109);
+		color: white;
+		width: 97%;
+		margin: 0 auto; 
+	}
+
+	.drop-down-menu label{
+		cursor: pointer;
+		height: 6.3vw;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		}
+
+	.drop-down-menu label span{
+		margin-left: 20px;
+		font-size: 2.5vw;
+	}
+
+	.menu-button:checked ~ ul {
+    	display: block;
+	}
+
+	.menu-items{
+		border-bottom: 1px solid black;
+		position: absolute;
+		margin: 0 auto;
+		padding: 0; 
+		top: 6.5vw;
+		width: 100%;
+		color: rgb(77, 77, 77);
+		background-color: rgba(237, 237, 237, 0.9);
+	}
+
+	.menu-items li{
+		height: 6.3vw;
+		line-height: 6.3vw;
+		list-style-type: none;
+		cursor: pointer;
+		border-bottom: 1px solid rgb(177, 177, 177);
+		font-size: 2.5vw;
+		font-family: Arial;
+		text-align: right;
+		padding-right: 20px; 
+	}
+
+	.menu-items li:hover{
+		background-color: rgb(253,146,109);
+		color: white;
+	}
+	.menu-button:hover .menu-items{
+		display: block;
+	}
+
+	.slider{
+		margin-top: 2.5vw;
+	}
+
+
+	.menu-sign{
+		width: 25px;
+		height: 25px;
+		padding-right: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.menu-sign div{
+		width: 23px;
+		height: 5px;
+		border-radius: 25%;
+		background-color: white;
+	}
+
+	.subscription, .top-line, .second-line, .section-wrapper, .goods-menu{
+		width: 97%;
+	}
+
+	.rubrics, .section-wrapper{
+		height: 34.3vw;
+	}
+
+	.facebook, .twitter, .p{
+		width: 7.3vw;
+		height: 7.3vw;
+	}
+
+	.twitter{
+		background-position: -7.5vw 0;
+	}
+
+	.p{
+		background-position: -15vw 0;
+	}
+
+	.tabs li{
+		padding: 2.5vw 2.7vw;
+	}
+
+	.shop-it{
+		font-size: 12px;
+	}
+
+	.clearance{
+		width: 100%;
+	}
+
+	.clearance-goods, .goods-slider{
+		height: 57vw;
+	}
+
+	.clearance-goods figure, .goods-slider figure {
+		width: 30vw;
+		height: 52vw;
+	}
+
+	figure:hover{
+		width: 31vw;
+		height: 95%;
+		margin: 1vw 0;
+	}
+
+	.picture{
+		background-image: url(../images/picturetablet.png);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: white;
+	}
+
+	.clearance-goods figcaption, .goods-slider figcaption {
+		padding: 10px;
+	}
+	figcaption > div{
+		height: 30%;
+		width: 80%;
+	}
+
+	.goods-name, .clearance-goods figcaption button, .goods-slider figcaption button{
+		font-size: 12px;
+	}
+
+	.bag{
+		margin-bottom: 0.8vw;
+	}
+
+	.shop-it{
+		width: 48%;
+	}
+
+
+
+	.semicircle{
+		width: 2.6vw;
+		height: 2.5vw;
+		border: 1px solid white;
+		border-bottom: none;
+		border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+	}
+
+	.trapezoid{
+		border-bottom: 3.3vw solid white;
+		border-left: 1.5vw solid transparent;
+		border-right: 1.5vw solid transparent; 
+		height: 0;
+		width: 3vw;
+	}
+
+	.sale{
+		font-size: 1.5vw;
+		width: 6.1vw;
+		height: 6.1vw;
+		padding: 0.5vw;
+	}
+
+	.price{
+		font-size: 22px;
+	}
+
+	.brands-heading-style hr{
+		width: 35%;
+	}
+	.brands-logo{
+		width: 90%;
+		padding: 0 15px;
+	}
+	.brands-logo div{
+		width: 8.6vw;
+		height: 8.6vw;
+		margin-bottom: 20px; 
+		background-size: 100%;
+	}
+
+	.grenson, .edwin{
+		display: none;
+	}
+
+	.about{
+		width: 100%;
+	}
+
+	.about p{
+		margin: 0 15px;
+	}
+
+	.systems{
+		width: 63vw;
+	}
+
+	.systems div{
+		width: 4.5vw;
+		height: 2.9vw;
+	}
+
+	.system2{
+		background-position: -5.6vw 0;
+	}
+
+	.system3{
+		background-position: -11.6vw 0;
+	}
+
+	.system4{
+		background-position: -17.5vw 0;
+	}
+
+	.system5{
+		background-position: -23vw 0;
+	}
+
+	.system6{
+		background-position: -29vw 0;
+	}
+
+	.system7{
+		background-position: -34.7vw 0;
+	}
+
+	.system8{
+		background-position: -40.7vw 0;
+	}
+
+	.system9{
+		background-position: -52.3vw 0;
+	}		
+
+	.system10{
+		background-position: -46.5vw 0;
+	}
+
+	.system11{
+		background-position: -58.1vw 0;
+	}
+
+	.footer-nav{
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	.nav-rubrics{
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 15px;
+		width: 37%;
+	}
+
+	.rubrics-line{
+		justify-content: space-between;
+	}
+
+
+	.rubrics-first-line{
+		margin-bottom: 15px;
+		justify-content: space-between;
+	}
+
+	.service, .information, .campaigns, .stores{
+		font-size: 1.5vw;
+	}
+	.stores{
+		width: 10vw;
+	}
+
+	.information{
+		width: 11vw;
+	}
+
+	h4{
+		font-size: 1.7vw;
+	}
+
+	.icons{
+		width: 15vw;
+		height: 10vw;
+	}
+
+	.first-line-icons > div, .second-line-icons > div{
+		width: 5vw;
+		height: 5vw;
+	}
+
+
+	.twitter2{
+		background-position: 0 -0.3vw; 
+	}
+
+	.p2{
+		background-position: -5vw -0.3vw;
+	}
+
+	.facebook2{
+		background-position: -9.6vw -0.3vw;
+	}
+
+	.google-plus{
+		background-position: -13.9vw -0.3vw;
+	}
+
+	.t{
+		background-position: -19.2vw -0.3vw;
+	}
+
+	.v{
+		background-position: -23.5vw -0.3vw;
+	}
+
+
+	.security-sign{
+		width: 14vw;
+		height: 14vw;
+	}
+
+	.bottom{
+		
+		width: 100%;
+		font-size: 1.4vw;
+	}
+
+	.bottom-nav{
+		margin-left: 15px;
+		width: 53vw;
+	}
+
+	.copyright{
+		margin-right: 15px;
+	}
+}

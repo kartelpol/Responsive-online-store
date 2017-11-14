@@ -1,0 +1,387 @@
+@media only screen
+ and (max-width: 640px){
+
+ 	body{
+ 		/* padding-bottom: 20vw; */
+ 	}
+ 	
+	.top-line{
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+
+	.custom-care{
+		background-color: white;
+		color: rgb(131, 131, 131);
+		padding: 3.9vw 0;
+		width: 100%;
+		font-size: 4.6vw;
+		font-family: Arial;
+		text-align: center;
+	}
+	.settings{
+		width: 100%;
+		height: 33%;
+		justify-content: space-between;
+	}
+
+	.options-wrapper{
+		padding: 1.5vw 0; 	
+	}
+
+	.options-wrapper:hover{
+		background-color: black;
+	}
+
+	.money, .account, .search{
+		font-size: 4.6vw;
+	}
+
+	.money .arrow-down{
+		margin-left: 2vw;
+	}
+
+	.account img, .search img{
+		width: 5vw;
+	}
+
+	.logo{
+		width: 57vw;
+		margin: 7vw 0 9vw 0;
+	}
+
+	.second-line{
+		margin: 0 auto;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.cart-info, .drop-down-menu, .input{
+		width: 95vw;
+		font-size: 4.6vw;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.menu-items{
+		position: static;
+	}
+
+	.cart-info div{
+		padding: 3vw 10vw; 
+	}
+
+	.info img{
+		width: 7.9vw;
+	}
+
+	.cart-select, .slider, .sliders-position, .input-field label{
+		display: none;
+	}
+
+	.menu, .menu-button, .input, .social-networks{
+		height: 15vw;
+	}
+
+	.drop-down-menu{
+		margin-top: 4.4vw;
+	}
+
+
+	.drop-down-menu label{
+				height: 15vw;
+	}
+	.menu-items li{
+		
+		height: 15vw;
+		line-height: 15vw;
+	}
+
+	.drop-down-menu label span, .menu-items li{
+		font-size: 4.4vw;
+	}
+
+	.menu-items{
+		top: 15vw;
+	}
+
+	.subscription-wrapper{
+		background-color: white;
+	}
+	.subscription{
+		margin-bottom: 4.4vw;
+		margin-top: 4.4vw;	
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.input{
+		/* width: 93vw; */
+	}
+
+	.input input{
+		margin-left: 0;
+		font-size: 4.6vw;
+		background-color: rgb(237,237,237);
+		width: 76vw;
+	}
+
+	.plus{
+		width: 15vw;
+		font-size: 4.6vw;
+	}
+
+	.social-networks{
+		margin-top: 4vw;
+		
+		font-size: 4vw;
+		color: rgb(108,108,108);
+
+	}
+	.social-networks span{
+		margin-right: 5.4vw;
+	}
+
+	.facebook, .twitter, .p{
+		width: 14vw;
+		height: 100%;
+	}
+
+	.twitter{
+		background-position: -15.8vw 0;
+		background-color: rgb(237, 237, 237);
+	}
+
+	.facebook, .p{
+		background-color: rgb(247, 247, 247);
+	}
+
+	.p{
+		background-position: -31.5vw 0;
+	}
+
+	.section-wrapper{
+		display: none;
+	}
+	.tabs input{
+		display: block;
+	}
+
+	.indicators{
+		display: none;
+	}
+	.goods-menu, .tabs label, .tabs input{
+		width: 100%;
+	}
+	.tabs{
+		position: relative;
+		width: 100%;
+	}
+
+	.tabs input{
+		cursor: pointer;
+	}
+
+	.tabs label{
+		cursor: pointer;
+		color: white;
+		background-color: rgb(244, 132, 93);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 15vw;
+	}
+
+	.tabs label span{
+		margin-left: 3vw;
+		font-size: 4.6vw;
+	}
+
+
+	input[type="checkbox"]{
+		display: none;
+	}
+
+	.slider-burger:checked ~ ul{
+		display: block;
+	}
+
+	.slider-burger:checked ~ ul .active-tab{
+		display: none;
+	}
+
+	.tabs ul{
+		display: none;	
+		color: rgb(77, 77, 77);
+		background-color: rgba(237, 237, 237, 0.9);
+		position: absolute;
+		top: 15vw;
+		width: 100%;
+	}
+
+	.tabs li{
+		list-style-type: none;
+		font-size: 4.6vw;
+		cursor: pointer;
+		border-bottom: 1px solid rgb(177, 177, 177)
+	}
+
+
+	.arrow-down{
+		display: block;
+	}
+
+	.arrow-down{
+		margin-right: 4vw;
+		width: 0;
+		height: 0;
+		border-left: 1vw solid transparent;
+		border-right: 1vw solid transparent;
+		border-top: 1.5vw solid white;
+	}
+
+	.goods-slider, .clearance-goods{
+		height: 105vw;
+		flex-direction: column;
+	}
+
+	.figures{
+		flex-wrap: wrap;
+		overflow: hidden; 
+		height: 80%;
+	}
+
+	.goods-slider figure, .clearance-goods figure{
+		height: 100%;
+		width: 43vw;
+	}
+
+	figure:hover{
+		width: 45vw;
+		height: 103%;
+	}
+
+	.clearance-goods figcaption, .goods-slider figcaption {
+		padding: 0;
+	}
+
+	figcaption > div{
+		height: 20%;
+		width: 80%;
+	}
+
+	.goods-name, .clearance-goods figcaption button, .goods-slider figcaption button {
+		font-size: 2.8vw;
+	}
+
+	.price{
+		font-size: 4.2vw;
+	}
+
+	.sale-wrapper{
+		display: none;
+	}
+	.sale-shop{
+		justify-content: center;
+	}
+
+	.brands, .about, .pay-systems, .footer-nav-wrapper, .bottom-nav {
+		display: none;
+	}
+
+	.load-more{
+		display: block;
+		background-color: black;
+		color: white;
+		font-size: 2.8vw;
+		font-family: Helvetica, Arial; 
+		padding: 3.2vw 8.5vw;
+		border: none;
+	}
+
+	.load-more:hover{
+		color: rgb(147,147,147);
+	}
+
+	.headline{
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.headline img{
+		width: 25vw;
+		padding: 0 2.5vw;
+	}
+
+	.headline hr{
+		width: 30vw;
+		margin: 0; 
+	}
+
+	.pict-phone{
+		background-image: url(../images/picturephone.png);
+	}
+
+	.pict-phone2{
+		background-image: url(../images/picturephone2.png);
+	}
+
+	.bottom{
+		justify-content: space-between;
+	}
+
+	.copyright{
+		font-size: 3.8vw;
+	}
+
+	.footer-burger{
+		display: block;
+		position: relative;
+	}
+
+	.footer-menu-sign{
+		width: 25px;
+		height: 25px;
+		padding-left: 15px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		cursor: pointer;
+	}
+
+	.footer-menu-sign div{
+		width: 23px;
+		height: 5px;
+		border-radius: 25%;
+		background-color: white;
+	}
+
+	.footer-burger input:checked ~ ul {
+    	display: block;
+	}
+
+	.footer-menu-items{
+		bottom: 8.5vw;
+		width: 100vw;
+		position: absolute;
+		color: rgb(177, 177, 177);
+		background-color: rgb(237, 237, 237);
+	}
+
+	.footer-menu-items li{
+		padding-left: 2vw;
+		border-top: 1px solid rgb(177, 177, 177);
+		height: 9.3vw;
+		line-height: 9.3vw;
+		list-style-type: none;
+		font-size: 3.8vw;
+	}
+
+	.footer-menu-items li:hover{
+		background-color: rgb(253,146,109);
+		color: white;
+	}
+ }
